@@ -79,7 +79,7 @@ export default async function handler(req, res) {
       process_url = await process_url.replace("/programme", "");
       if (process_url === "" || process_url === "/") {
         // programme list page
-        const default_programme_og = `https://raw.githubusercontent.com/${"codinasion"}/${"codinasion"}/master/image/og/codinasion-programme.png`;
+        const default_programme_og = `https://raw.githubusercontent.com/${"codinasion"}/${"codinasion"}/master/image/og/codinasion-og.png`;
 
         // generate html
         const html = await getDefaultHtml(default_programme_og);
