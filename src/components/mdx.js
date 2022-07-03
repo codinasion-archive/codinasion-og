@@ -4,7 +4,7 @@ import matter from "gray-matter";
 
 const root = process.cwd();
 
-export async function getMarkdown() {
+export default async function getMarkdown() {
   const mdPath = path.join(root, "pages", "index.md");
   const source = fs.readFileSync(mdPath, "utf8");
 

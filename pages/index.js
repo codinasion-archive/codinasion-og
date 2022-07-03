@@ -2,9 +2,9 @@ import Link from "next/link";
 
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
-import MdxComponent from "./_components/MdxComponent";
+import MdxComponent from "../src/components/MdxComponent";
 
-import { getMarkdown } from "./_components/mdx";
+import getMarkdown from "../src/components/mdx";
 
 export default function Home({ markdown }) {
   return (
