@@ -17,11 +17,6 @@ a {
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .home {
   background-color: rgb(68, 70, 71);
   padding: 20px;

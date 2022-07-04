@@ -70,7 +70,9 @@ A NEXT JS app to generate OG images for Codinasion website.
   https://codinasion-og.vercel.app/api?url=anything
   ```
 
-  ![default og](https://raw.githubusercontent.com/codinasion/codinasion-og/master/sample_images/default-og.png)
+  <div align="center">
+    <img src="https://raw.githubusercontent.com/codinasion/codinasion-og/master/sample_images/default-og.png" alt="default-og" width="1024" height="512">
+  </div>
 
 - Homepage OG
 
@@ -82,7 +84,9 @@ A NEXT JS app to generate OG images for Codinasion website.
   https://codinasion-og.vercel.app/api?url=https://codinasion.vercel.app
   ```
 
-  ![homepage og](https://raw.githubusercontent.com/codinasion/codinasion-og/master/sample_images/homepage-og.png)
+  <div align="center">
+    <img src="https://raw.githubusercontent.com/codinasion/codinasion-og/master/sample_images/homepage-og.png" alt="homepage-og" width="1024" height="512">
+  </div>
 
 - Programme Homepage OG
 
@@ -90,7 +94,9 @@ A NEXT JS app to generate OG images for Codinasion website.
   https://codinasion-og.vercel.app/api?url=https://codinasion.vercel.app/programme
   ```
 
-  ![programme homepage og](https://raw.githubusercontent.com/codinasion/codinasion-og/master/sample_images/programme-homepage-og.png)
+  <div align="center">
+    <img src="https://raw.githubusercontent.com/codinasion/codinasion-og/master/sample_images/programme-homepage-og.png" alt="programme-homepage-og" width="1024" height="512">
+  </div>
 
 - Programme OG
 
@@ -98,7 +104,9 @@ A NEXT JS app to generate OG images for Codinasion website.
   https://codinasion-og.vercel.app/api?url=https://codinasion.vercel.app/programme/add-two-numbers
   ```
 
-  ![programme og](https://raw.githubusercontent.com/codinasion/codinasion-og/master/sample_images/programme-og.png)
+  <div align="center">
+    <img src="https://raw.githubusercontent.com/codinasion/codinasion-og/master/sample_images/programme-og.png" alt="programme-og" width="1024" height="512">
+  </div>
 
 - DSA Homepage OG
 
@@ -106,7 +114,9 @@ A NEXT JS app to generate OG images for Codinasion website.
   https://codinasion-og.vercel.app/api?url=https://codinasion.vercel.app/dsa
   ```
 
-  ![dsa homepage og](https://raw.githubusercontent.com/codinasion/codinasion-og/master/sample_images/dsa-homepage-og.png)
+  <div align="center">
+    <img src="https://raw.githubusercontent.com/codinasion/codinasion-og/master/sample_images/dsa-homepage-og.png" alt="dsa-homepage-og" width="1024" height="512">
+  </div>
 
 - DSA OG
 
@@ -114,7 +124,9 @@ A NEXT JS app to generate OG images for Codinasion website.
   https://codinasion-og.vercel.app/api?url=https://codinasion.vercel.app/dsa/linear-search
   ```
 
-  ![dsa og](https://raw.githubusercontent.com/codinasion/codinasion-og/master/sample_images/dsa-og.png)
+  <div align="center">
+    <img src="https://raw.githubusercontent.com/codinasion/codinasion-og/master/sample_images/dsa-og.png" alt="dsa-og" width="1024" height="512">
+  </div>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/rainbow-hr.png" alt="rainbow hr" width="100%" height="70%">
