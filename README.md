@@ -19,6 +19,7 @@ Dynamic OG image generator for Codinasion
 - [✨ Generate OG <a name = "generate_og"></a>](#-generate-og-)
 - [🚀 Deployment <a name = "deployment"></a>](#-deployment-)
 - [⛏️ Built Using <a name = "built_using"></a>](#️-built-using-)
+- [🔗 Reference](#-reference)
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/rainbow-hr.png" alt="rainbow hr" width="100%" height="70%">
@@ -63,13 +64,13 @@ A NEXT JS app to generate OG images for Codinasion website.
 
 ## ✨ Generate OG <a name = "generate_og"></a>
 
-- Basic Structure
+- [Basic Structure](https://codinasion-og.vercel.app/api?url=codinasion_site_url)
 
   ```md
   https://codinasion-og.vercel.app/api?url=codinasion_site_url
   ```
 
-- Default OG
+- [Default OG](https://codinasion-og.vercel.app/api?url=anything)
 
   ```md
   https://codinasion-og.vercel.app/api?url=anything
@@ -77,7 +78,7 @@ A NEXT JS app to generate OG images for Codinasion website.
 
   ![default og](./sample_images/default-og.png)
 
-- Homepage OG
+- [Homepage OG](https://codinasion-og.vercel.app/api?url=https://codinasion.vercel.app)
 
   ```md
   https://codinasion-og.vercel.app/api
@@ -89,7 +90,7 @@ A NEXT JS app to generate OG images for Codinasion website.
 
   ![homepage og](./sample_images/homepage-og.png)
 
-- Programme Homepage OG
+- [Programme Homepage OG](https://codinasion-og.vercel.app/api?url=https://codinasion.vercel.app/programme)
 
   ```md
   https://codinasion-og.vercel.app/api?url=https://codinasion.vercel.app/programme
@@ -97,7 +98,7 @@ A NEXT JS app to generate OG images for Codinasion website.
 
   ![programme homepage og](./sample_images/programme-homepage-og.png)
 
-- Programme OG
+- [Programme OG](https://codinasion-og.vercel.app/api?url=https://codinasion.vercel.app/programme/add-two-numbers)
 
   ```md
   https://codinasion-og.vercel.app/api?url=https://codinasion.vercel.app/programme/add-two-numbers
@@ -105,7 +106,7 @@ A NEXT JS app to generate OG images for Codinasion website.
 
   ![programme og](./sample_images/programme-og.png)
 
-- DSA Homepage OG
+- [DSA Homepage OG](https://codinasion-og.vercel.app/api?url=https://codinasion.vercel.app/dsa)
 
   ```md
   https://codinasion-og.vercel.app/api?url=https://codinasion.vercel.app/dsa
@@ -113,7 +114,7 @@ A NEXT JS app to generate OG images for Codinasion website.
 
   ![dsa homepage og](./sample_images/dsa-homepage-og.png)
 
-- DSA OG
+- [DSA OG](https://codinasion-og.vercel.app/api?url=https://codinasion.vercel.app/dsa/linear-search)
 
   ```md
   https://codinasion-og.vercel.app/api?url=https://codinasion.vercel.app/dsa/linear-search
@@ -145,18 +146,31 @@ A NEXT JS app to generate OG images for Codinasion website.
   <img src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/rainbow-hr.png" alt="rainbow hr" width="100%" height="70%">
 </div>
 
+## 🔗 Reference
+
+- [Github Blog](https://github.blog/2021-06-22-framework-building-open-graph-images/)
+- [Vercel OG Image](https://github.com/vercel/og-image)
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/rainbow-hr.png" alt="rainbow hr" width="100%" height="70%">
+</div>
+
 <br>
 
 <table>
   <tr>
     <td>
-    <img align="left" src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/sylvie/sylvie-small.png" width="190"></a>
-    <h3>Thanks for contributing :purple_heart:</h3>
-    <ul>
-      <li>Thanks for all your contributions and efforts</li>
-      <li>We thank you being part of our :sparkles: commUnity :sparkles: !</li>
-    </ul>
-    <img width="900" height="0">
+      <img align="left" src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/sylvie/sylvie-small.png" width="190">
+      <h3>Thanks for contributing :purple_heart:</h3>
+      <ul>
+        <li>Thanks for all your contributions and efforts</li>
+        <li>We thank you being part of our :sparkles: commUnity :sparkles: !</li>
+      </ul>
+      <img width="900" height="0">
     </td>
   </tr>
 </table>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/rainbow-hr.png" alt="rainbow hr" width="100%" height="70%">
+</div>
