@@ -91,7 +91,7 @@ export default async function getHomeHtml(data) {
                   />
                 </div>
               );
-            })
+            }).join("")
           : data.contributors.slice(0, 80).map((contributor, index) => (
               <div key={index} class='p-1'>
                 <img
@@ -101,7 +101,7 @@ export default async function getHomeHtml(data) {
                   style='width: 20px'
                 />
               </div>
-            )) +
+            )).join("") +
             `
         <div class="p-1">
           <small><b>+${data.contributors.length - 80} more</b></small>
@@ -132,7 +132,7 @@ export default async function getHomeHtml(data) {
                 style='width: 20px; max-height: 20px'
               />
             </div>
-          ))
+          )).join("")
         }
         </div>
       </div>

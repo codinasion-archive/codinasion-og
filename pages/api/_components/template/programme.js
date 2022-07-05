@@ -106,7 +106,7 @@ export default async function getProgrammeHtml(data) {
               style='width: 40px'
             />
           </div>
-        ))
+        )).join("")
       }
     </div>
     <div class="row pt-4 pl-4 ml-1">
@@ -132,7 +132,7 @@ export default async function getProgrammeHtml(data) {
                 style='width: 40px; max-height: 40px'
               />
             </div>
-          ))
+          )).join("")
         }
           
         </div>
