@@ -92,8 +92,10 @@ export default async function getHomeHtml(data) {
         </div>
       `
             )
-          : data.contributors.slice(0, 80).map(
-              (contributor, index) => `
+          : data.contributors
+              .slice(0, 80)
+              .map(
+                (contributor, index) => `
         <div key="${index}" class="p-1">
           <img
             src="http://github.com/${contributor.username}.png"
@@ -103,7 +105,8 @@ export default async function getHomeHtml(data) {
           />
         </div>
           `
-            ) +
+              )
+              .join("") +
             `
         <div class="p-1">
           <small><b>+${data.contributors.length - 80} more</b></small>
@@ -123,8 +126,9 @@ export default async function getHomeHtml(data) {
         <div class="row pl-4 ml-1">
         ${
           data.tags !== null &&
-          data.tags.map(
-            (tag, index) => `
+          data.tags
+            .map(
+              (tag, index) => `
           <div key="${index}" class="p-1">
             <img
               src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/language/${
@@ -136,7 +140,8 @@ export default async function getHomeHtml(data) {
             />
           </div>
               `
-          )
+            )
+            .join("")
         }
         </div>
       </div>

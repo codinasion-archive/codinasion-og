@@ -97,8 +97,9 @@ export default async function getProgrammeHtml(data) {
     <div class="row pl-4 ml-1">
       ${
         data.contributors !== null &&
-        data.contributors.map(
-          (username, index) => `
+        data.contributors
+          .map(
+            (username, index) => `
       <div key="${index}" class="p-1">
         <img
           src="http://github.com/${username}.png"
@@ -108,7 +109,8 @@ export default async function getProgrammeHtml(data) {
         />
       </div>
       `
-        )
+          )
+          .join("")
       }
     </div>
     <div class="row pt-4 pl-4 ml-1">
@@ -123,8 +125,9 @@ export default async function getProgrammeHtml(data) {
         <div class="row pl-4 ml-1">
         ${
           data.tags !== null &&
-          data.tags.map(
-            (tag, index) => `
+          data.tags
+            .map(
+              (tag, index) => `
             <div class="p-1">
             <img
               src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/language/${
@@ -136,7 +139,8 @@ export default async function getProgrammeHtml(data) {
             />
           </div>
         `
-          )
+            )
+            .join("")
         }
           
         </div>
