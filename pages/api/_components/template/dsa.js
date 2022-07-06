@@ -1,4 +1,4 @@
-import FormatTag from '../../../../scripts/formatTag';
+import FormatTag from "../../../../scripts/formatTag";
 
 export default async function getDsaHtml(data) {
   const html = `
@@ -66,13 +66,13 @@ export default async function getDsaHtml(data) {
             Last Updated :
             <b
               >${new Date(data.latestUpdateDate)
-                .toLocaleDateString('en-GB', {
-                  month: '2-digit',
-                  day: '2-digit',
-                  year: 'numeric',
+                .toLocaleDateString("en-GB", {
+                  month: "2-digit",
+                  day: "2-digit",
+                  year: "numeric",
                 })
-                .split('/')
-                .join('-')}</b
+                .split("/")
+                .join("-")}</b
             >
           </h6>
         </div>
@@ -88,16 +88,20 @@ export default async function getDsaHtml(data) {
     <div class="row pl-4 ml-1">
       ${
         data.contributors !== null &&
-        data.contributors.map((username, index) => (
-          <div key={index} class='p-1'>
-            <img
-              src={`http://github.com/${username}.png`}
-              class='rounded-circle text-center'
-              alt={username}
-              style='width: 40px'
-            />
-          </div>
-        )).join("")
+        data.contributors
+          .map(
+            (username, index) => `
+      <div key="${index}" class="p-1">
+        <img
+          src="http://github.com/${username}.png"
+          class="rounded-circle text-center"
+          alt="${username}"
+          style="width: 40px"
+        />
+      </div>
+      `
+          )
+          .join("")
       }
     </div>
     <div class="row pt-4 pl-4 ml-1">
@@ -112,18 +116,22 @@ export default async function getDsaHtml(data) {
         <div class="row pl-4 ml-1">
         ${
           data.tags !== null &&
-          data.tags.map((tag, index) => (
-            <div key={index} class='p-1'>
-              <img
-                src={`https://raw.githubusercontent.com/codinasion/codinasion/master/image/language/${
-                  FormatTag(tag).tag
-                }.png`}
-                class='rounded-circle text-center'
-                alt='image'
-                style='width: 40px; max-height: 40px'
-              />
-            </div>
-          )).join("")
+          data.tags
+            .map(
+              (tag, index) => `
+            <div class="p-1">
+            <img
+              src="https://raw.githubusercontent.com/codinasion/codinasion/master/image/language/${
+                FormatTag(tag).tag
+              }.png"
+              class="rounded-circle text-center"
+              alt="image"
+              style="width: 40px; max-height: 40px"
+            />
+          </div>
+        `
+            )
+            .join("")
         }
           
         </div>
